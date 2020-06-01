@@ -1,0 +1,18 @@
+$name: description;
+$attr_bg: border;
+
+/*
+div.content {
+    background-color: red;
+}
+*/
+
+/*
+div.#{$name} {
+    background-color: red;
+}
+*/
+
+div.#{$name} {
+    #{$attr_bg}-color: red;
+}
